@@ -1,5 +1,4 @@
-import subprocess
-import platform
+import subprocess, platform
 
 def change_mac(interface, new_mac):
     if platform.system() == "Linux":
